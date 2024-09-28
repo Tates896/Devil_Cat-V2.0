@@ -11,18 +11,18 @@ const chalk = require('chalk')
 
 //contact details
 global.ownernomer = "2349030430633"
-global.ownername = "tates."
+global.ownername = "Lord tates"
 global.ytname = "YT: No-Name-Tech"
 global.socialm = "GitHub: Anime-King01"
 global.location = "Africa/Lagos"
 
 global.ownernumber = '2349030430633'  //creator number
-global.ownername = ' tates.' //owner name
+global.ownername = 'Lord tates' //owner name
 global.botname = 'Devil_Cat ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'tates.\n\nContact: +2349030430633'
+global.author = 'Lord tates\n\nContact: +2349030430633'
 
 //console view/theme
 global.themeemoji = '🪀'
@@ -77,4 +77,6 @@ fs.watchFile(file, () => {
     console.log(chalk.redBright(`Update'${__filename}'`))
     delete require.cache[file]
     require(file)
+})
+e)
 })
